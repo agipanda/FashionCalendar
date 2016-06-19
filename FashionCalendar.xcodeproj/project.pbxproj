@@ -14,6 +14,8 @@
 		8A8CF4291D1684B1007E61FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8CF4271D1684B1007E61FD /* LaunchScreen.storyboard */; };
 		8A8CF4341D1684B2007E61FD /* FashionCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CF4331D1684B2007E61FD /* FashionCalendarTests.swift */; };
 		8A8CF43F1D1684B2007E61FD /* FashionCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CF43E1D1684B2007E61FD /* FashionCalendarUITests.swift */; };
+		8A8CF44D1D1685FC007E61FD /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CF44C1D1685FC007E61FD /* SaveViewController.swift */; };
+		8A8CF44F1D1689CC007E61FD /* DeviseSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CF44E1D1689CC007E61FD /* DeviseSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8A8CF43A1D1684B2007E61FD /* FashionCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8CF43E1D1684B2007E61FD /* FashionCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionCalendarUITests.swift; sourceTree = "<group>"; };
 		8A8CF4401D1684B2007E61FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8CF44C1D1685FC007E61FD /* SaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		8A8CF44E1D1689CC007E61FD /* DeviseSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviseSize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				8A8CF41E1D1684B1007E61FD /* AppDelegate.swift */,
 				8A8CF4201D1684B1007E61FD /* ViewController.swift */,
+				8A8CF44C1D1685FC007E61FD /* SaveViewController.swift */,
+				8A8CF44E1D1689CC007E61FD /* DeviseSize.swift */,
 				8A8CF4221D1684B1007E61FD /* Main.storyboard */,
 				8A8CF4251D1684B1007E61FD /* Assets.xcassets */,
 				8A8CF4271D1684B1007E61FD /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A8CF4211D1684B1007E61FD /* ViewController.swift in Sources */,
+				8A8CF44D1D1685FC007E61FD /* SaveViewController.swift in Sources */,
+				8A8CF44F1D1689CC007E61FD /* DeviseSize.swift in Sources */,
 				8A8CF41F1D1684B1007E61FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
